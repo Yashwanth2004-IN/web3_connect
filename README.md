@@ -14,7 +14,7 @@
 ---
 
 ## 🌐 Live Demo
-🔗 **https://Yashwanth2004-IN.github.io/web3-connect/**
+🔗 **https://Yashwanth2004-IN.github.io/web3-connect/](https://web3-connect-amber.vercel.app/**
 
 ---
 
