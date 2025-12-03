@@ -1,0 +1,67 @@
+/* === GLOBAL === */
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top, #1a1a1a, #000);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* === CONTAINER === */
+.container {
+    background: rgba(20, 20, 20, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    width: 380px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.15),
+                0 0 45px rgba(0, 255, 255, 0.06) inset;
+}
+
+/* === HEADING === */
+.container h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #00eaff;
+    text-shadow: 0 0 12px #00eaff;
+}
+
+/* === BUTTON === */
+button {
+    background: linear-gradient(135deg, #00eaff, #008cff);
+    border: none;
+    padding: 14px 25px;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px #00eaff66;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #11f6ff, #009dff);
+    box-shadow: 0 0 18px #00eaffaa;
+    transform: translateY(-2px);
+}
+
+/* === TEXT OUTPUT === */
+p {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 255, 255, 0.15);
+    margin-top: 12px;
+    word-wrap: break-word;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.06) inset;
+}
